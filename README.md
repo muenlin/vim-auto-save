@@ -11,6 +11,7 @@ vim ~/.vimrc
 在vimrc中加入下面内容
 
 "自动保存
+
 let g:auto_save = 1
 let g:auto_save_events = ["InsertLeave", "TextChanged", "TextChangedI", "CursorHoldI", "CompleteDone"]
 
