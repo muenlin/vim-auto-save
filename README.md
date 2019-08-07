@@ -1,3 +1,20 @@
+进https://www.vim.org/scripts/script.php?script_id=4521网站下载vim -auto-save
+
+https://www.vim.org/scripts/download_script.php?src_id=26426
+
+tar xvf vim-auto-save-0.1.12.tar.gz
+
+cp plugin/AutoSave.vim ~/.vim/plugin/
+
+vim ~/.vimrc
+
+在vimrc中加入下面内容
+
+"自动保存
+let g:auto_save = 1
+let g:auto_save_events = ["InsertLeave", "TextChanged", "TextChangedI", "CursorHoldI", "CompleteDone"]
+
+====================================================================
 # AutoSave
 
 ## Description
